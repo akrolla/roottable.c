@@ -1,0 +1,73 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*
+Cody Webb
+CMPSCI111301
+2/2/17
+*/
+
+#include<stdio.h>
+#include<math.h>
+
+
+int start; int stop; int step ;int i;
+
+int main(int argc, char*argv[])
+{
+
+	if (argc==4)
+	{
+		sscanf("%d" , start) ;
+		sscanf("%d" , start); 
+		sscanf("%d" , step) ; 
+		
+		
+		if (i=start, i<=stop, i=i+step)
+		{
+			printf("%d %f \n" , sqrt(i), i);
+		
+		
+		    else 
+		    {
+			if(i=start, i>=stop, i=i+step)
+		    	{
+				printf("%d %f \n" , sqrt(abs(i)),i);
+			    }
+		    
+    	    else
+				{
+				printf("Error invalid numbers within loop. Please Try Again.");
+				}
+			}
+		else
+			{
+		    printf("Error 3 Numbers were not provided. Please Try Again");
+			}
+	    }	
+	    
+	}	
+}
+	
+
+
+
+
+
+
+
+
+
