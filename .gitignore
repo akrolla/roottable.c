@@ -27,25 +27,31 @@ int main(int argc, char*argv[])
 		
 		    else 
 		    {
-			if(i=start, i>=stop, i=i+step)
-		    	{
-				printf("%d %f \n" , sqrt(abs(i)),i);
-			    }
+				if(i=start, i>=stop, i=i+step)
+					{
+					printf("%d %f \n" , sqrt(abs(i)),i);
+					}
 		    
-    	    else
-				{
-				printf("Error invalid numbers within loop. Please Try Again.");
-				}
+				else
+					{
+					printf("Error invalid numbers within loop. Please Try Again.");
+					}
 			}
 		else
 			{
 		    printf("Error 3 Numbers were not provided. Please Try Again");
 			}
-	    }	
+	    	}	
 	    
 	}	
 }
 	
+
+
+
+
+
+
 
 
 
